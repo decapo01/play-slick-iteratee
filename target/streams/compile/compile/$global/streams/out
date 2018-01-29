@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/decapo/apps/play-slick-iteratee/app/controllers/Application.scala:10:31: object streams is not a member of package play.api.libs.iteratee[0m
+[0m[[0m[31merror[0m] [0m[0mimport play.api.libs.iteratee.streams.IterateeStreams[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/decapo/apps/play-slick-iteratee/app/controllers/Application.scala:32:21: not found: value IterateeStreams[0m
+[0m[[0m[31merror[0m] [0m[0m    val publisher = IterateeStreams.enumeratorToPublisher(pipeline)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/decapo/apps/play-slick-iteratee/app/dao/RecordsDAO.scala:13:31: object streams is not a member of package play.api.libs.iteratee[0m
+[0m[[0m[31merror[0m] [0m[0mimport play.api.libs.iteratee.streams.IterateeStreams[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/decapo/apps/play-slick-iteratee/app/dao/RecordsDAO.scala:58:37: not found: value IterateeStreams[0m
+[0m[[0m[31merror[0m] [0m[0m    val input: Enumerator[Record] = IterateeStreams.publisherToEnumerator(db.stream(records.result))[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

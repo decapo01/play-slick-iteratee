@@ -1,0 +1,12 @@
+clean
+compile
+exit
+clean
+update
+compile
+exit
+update
+compile
+run
+reload
+run
